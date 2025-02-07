@@ -9,7 +9,9 @@
     License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS
     OF ANY KIND, either express or implied. See the License for the specific
     language governing permissions and limitations under the License. -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.apache</groupId>
@@ -626,6 +628,12 @@
             <artifactId>slf4j-simple</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.jms/javax.jms-api -->
+        <dependency>
+            <groupId>javax.jms</groupId>
+            <artifactId>javax.jms-api</artifactId>
+            <version>2.0.1</version>
+        </dependency>
     </dependencies>
     <build>
         <pluginManagement>
@@ -704,7 +712,8 @@
                         <releaseProfiles>apache-release</releaseProfiles>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                         <goals>deploy</goals>
-                        <!--suppress UnresolvedMavenProperty -->
+                        <!--suppress
+                        UnresolvedMavenProperty -->
                         <tagNameFormat>@{project.artifactId}-@{project.version}</tagNameFormat>
                         <pushChanges>false</pushChanges>
                         <localCheckout>true</localCheckout>
@@ -859,14 +868,16 @@
                                     <plugins>
                                         <plugin>org.apache.maven.plugins:maven-surefire-plugin</plugin>
                                         <plugin>org.apache.maven.plugins:maven-failsafe-plugin</plugin>
-                                        <plugin>org.apache.maven.plugins:maven-surefire-report-plugin</plugin>
+                                        <plugin>
+                                            org.apache.maven.plugins:maven-surefire-report-plugin</plugin>
                                     </plugins>
                                 </requireSameVersions>
                                 <requireMavenVersion>
                                     <version>3.9.6</version>
                                 </requireMavenVersion>
                                 <requireReleaseDeps>
-                                    <message>Dependencies outside of Apache NiFi must not use SNAPSHOT versions</message>
+                                    <message>Dependencies outside of Apache NiFi must not use
+                                        SNAPSHOT versions</message>
                                     <failWhenParentIsSnapshot>false</failWhenParentIsSnapshot>
                                     <excludes>
                                         <exclude>org.apache.nifi:*</exclude>
@@ -883,26 +894,33 @@
                                         <exclude>c3p0:c3p0:*:*:compile</exclude>
                                         <!-- FindBugs Annotations is LGPL-2 -->
                                         <exclude>com.google.code.findbugs:annotations:*</exclude>
-                                        <!-- Hibernate Commons Annotations is LGPL-2.1 before version 7.0.0 -->
-                                        <exclude>org.hibernate.common:hibernate-commons-annotations:[,7.0.0]</exclude>
+                                        <!-- Hibernate Commons Annotations is LGPL-2.1 before
+                                        version 7.0.0 -->
+                                        <exclude>
+                                            org.hibernate.common:hibernate-commons-annotations:[,7.0.0]</exclude>
                                         <!-- Hibernate Core is LGPL-2.1 -->
                                         <exclude>org.hibernate.orm:hibernate-core:*</exclude>
                                         <!-- Hibernate Entity Manager is LGPL-2.1 -->
                                         <exclude>org.hibernate:hibernate-entitymanager:*</exclude>
-                                        <!-- Versions of JSR305 before 3.0.1 are not allowed https://github.com/findbugsproject/findbugs/issues/128 -->
+                                        <!-- Versions of JSR305 before 3.0.1 are not allowed
+                                        https://github.com/findbugsproject/findbugs/issues/128 -->
                                         <exclude>com.google.code.findbugs:jsr305:[,3.0.0]:compile</exclude>
-                                        <!-- SLF4J routing to Log4j 1.2 is a runtime implementation that conflicts with Logback -->
+                                        <!-- SLF4J routing to Log4j 1.2 is a runtime implementation
+                                        that conflicts with Logback -->
                                         <exclude>org.slf4j:slf4j-log4j12</exclude>
                                         <exclude>org.slf4j:slf4j-reload4j</exclude>
                                         <!-- Log4J excluded in favor of log4j-over-slf4j and logback -->
                                         <exclude>log4j:log4j:*</exclude>
-                                        <!-- Log4j 2 log4j-core excluded in favor of log4j-to-slf4j routing to logback -->
+                                        <!-- Log4j 2 log4j-core excluded in favor of log4j-to-slf4j
+                                        routing to logback -->
                                         <exclude>org.apache.logging.log4j:log4j-core:*</exclude>
                                         <!-- Commons Logging excluded in favor of jcl-over-slf4j -->
                                         <exclude>commons-logging:commons-logging:*</exclude>
-                                        <!-- Apache Xalan is no longer maintained and is bundled in the standard JRE -->
+                                        <!-- Apache Xalan is no longer maintained and is bundled in
+                                        the standard JRE -->
                                         <exclude>xalan:xalan</exclude>
-                                        <!-- As of Bouncycastle 1.71 Java 8 is the minimum required so jdk15on artifacts not allowed -->
+                                        <!-- As of Bouncycastle 1.71 Java 8 is the minimum required
+                                        so jdk15on artifacts not allowed -->
                                         <exclude>org.bouncycastle:bcprov-jdk15on</exclude>
                                         <exclude>org.bouncycastle:bcpg-jdk15on</exclude>
                                         <exclude>org.bouncycastle:bcpkix-jdk15on</exclude>
@@ -994,9 +1012,11 @@
                     <consoleOutput>true</consoleOutput>
                     <useIdeaDefaultExcludes>true</useIdeaDefaultExcludes>
                     <excludes>
-                        <exclude>nb-configuration.xml</exclude> <!-- courtesy excludes for netbeans users -->
+                        <exclude>nb-configuration.xml</exclude> <!-- courtesy excludes for netbeans
+                        users -->
                         <exclude>nbactions.xml</exclude> <!-- courtesy excludes for netbeans users -->
-                        <exclude>DEPENDENCIES</exclude> <!-- auto generated file by apache's maven config while building sources.zip -->
+                        <exclude>DEPENDENCIES</exclude> <!-- auto generated file by apache's maven
+                        config while building sources.zip -->
                     </excludes>
                 </configuration>
             </plugin>
@@ -1161,8 +1181,10 @@
             </build>
         </profile>
         <profile>
-            <!-- Run "mvn validate -P dependency-check" to generate dependency-check-report.html in the target directory -->
-            <!-- Report results require detailed analysis to determine whether the vulnerability impacts the application -->
+            <!-- Run "mvn validate -P dependency-check" to generate dependency-check-report.html in
+            the target directory -->
+            <!-- Report results require detailed analysis to determine whether the vulnerability
+            impacts the application -->
             <id>dependency-check</id>
             <build>
                 <plugins>
@@ -1179,9 +1201,11 @@
                                 </goals>
                                 <configuration>
                                     <suppressionFiles>nifi-dependency-check-maven/suppressions.xml</suppressionFiles>
-                                    <!-- Skip System Scope to avoid dependency resolution errors with jdk.tools on Java 8 -->
+                                    <!-- Skip System Scope to avoid dependency resolution errors
+                                    with jdk.tools on Java 8 -->
                                     <skipSystemScope>true</skipSystemScope>
-                                    <!-- Disable .NET Assembly Analyzer to avoid non-applicable errors -->
+                                    <!-- Disable .NET Assembly Analyzer to avoid non-applicable
+                                    errors -->
                                     <assemblyAnalyzerEnabled>false</assemblyAnalyzerEnabled>
                                     <skipProvidedScope>true</skipProvidedScope>
                                 </configuration>

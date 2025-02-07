@@ -1,0 +1,1 @@
+<extensionManifest><groupId>org.apache.nifi</groupId><artifactId>nifi-jetty-nar</artifactId><version>2.2.0</version><systemApiVersion>2.0.0</systemApiVersion><buildInfo><tag>rel/nifi-2.2.0</tag></buildInfo><extensions></extensions></extensionManifest>

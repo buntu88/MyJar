@@ -1,0 +1,466 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-assembly
+
+
+From: 'an unknown organization'
+
+  - BCrypt Password Hashing Function (https://github.com/patrickfav/bcrypt/modules/bcrypt) at.favre.lib:bcrypt:bundle:0.10.2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Bytes Utility Library (https://github.com/patrickfav/bytes-java) at.favre.lib:bytes:bundle:1.5.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - JMS API (http://java.net/projects/jms-spec/pages/Home) javax.jms:javax.jms-api:jar:2.0.1
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html)
+
+  - AspectJ Weaver (https://www.eclipse.org/aspectj/) org.aspectj:aspectjweaver:jar:1.9.22.1
+    License: Eclipse Public License - v 2.0  (https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt)
+
+  - Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (https://www.bouncycastle.org/download/bouncy-castle-java/) org.bouncycastle:bcpkix-jdk18on:jar:1.80
+    License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+
+  - Bouncy Castle Provider (https://www.bouncycastle.org/download/bouncy-castle-java/) org.bouncycastle:bcprov-jdk18on:jar:1.80
+    License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+
+  - Bouncy Castle ASN.1 Extension and Utility APIs (https://www.bouncycastle.org/download/bouncy-castle-java/) org.bouncycastle:bcutil-jdk18on:jar:1.80
+    License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+
+
+From: 'Apache NiFi Project' (https://nifi.apache.org)
+
+  - nifi-api (https://nifi.apache.org) org.apache.nifi:nifi-api:jar:2.0.0
+    License: Apache License 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'Apache NiFi Project' (https://nifi.apache.org/)
+
+  - nifi-airtable-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-airtable-bundle/nifi-airtable-nar) org.apache.nifi:nifi-airtable-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-amqp-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-amqp-bundle/nifi-amqp-nar) org.apache.nifi:nifi-amqp-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-apicurio-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-apicurio-bundle/nifi-apicurio-nar) org.apache.nifi:nifi-apicurio-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-asana-processors-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-asana-bundle/nifi-asana-processors-nar) org.apache.nifi:nifi-asana-processors-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-asana-services-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-asana-bundle/nifi-asana-services-api-nar) org.apache.nifi:nifi-asana-services-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-asana-services-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-asana-bundle/nifi-asana-services-nar) org.apache.nifi:nifi-asana-services-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-avro-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-avro-bundle/nifi-avro-nar) org.apache.nifi:nifi-avro-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-aws-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-aws-bundle/nifi-aws-nar) org.apache.nifi:nifi-aws-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-aws-service-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-aws-bundle/nifi-aws-service-api-nar) org.apache.nifi:nifi-aws-service-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-azure-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-azure-bundle/nifi-azure-nar) org.apache.nifi:nifi-azure-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-azure-services-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-azure-bundle/nifi-azure-services-api-nar) org.apache.nifi:nifi-azure-services-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-bootstrap (https://nifi.apache.org/nifi-bootstrap) org.apache.nifi:nifi-bootstrap:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-box-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-box-bundle/nifi-box-nar) org.apache.nifi:nifi-box-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-box-services-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-box-bundle/nifi-box-services-api-nar) org.apache.nifi:nifi-box-services-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-box-services-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-box-bundle/nifi-box-services-nar) org.apache.nifi:nifi-box-services-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-cdc-mysql-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-cdc/nifi-cdc-mysql-bundle/nifi-cdc-mysql-nar) org.apache.nifi:nifi-cdc-mysql-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-cipher-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-cipher-bundle/nifi-cipher-nar) org.apache.nifi:nifi-cipher-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-compress-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-compress-bundle/nifi-compress-nar) org.apache.nifi:nifi-compress-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-confluent-platform-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-confluent-platform-bundle/nifi-confluent-platform-nar) org.apache.nifi:nifi-confluent-platform-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-database-dialect-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-services/nifi-database-dialect-service-bundle/nifi-database-dialect-service-nar) org.apache.nifi:nifi-database-dialect-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-db-schema-registry-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-services/nifi-db-schema-registry-bundle/nifi-db-schema-registry-service-nar) org.apache.nifi:nifi-db-schema-registry-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-dbcp-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-services/nifi-dbcp-service-bundle/nifi-dbcp-service-nar) org.apache.nifi:nifi-dbcp-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-distributed-cache-services-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-services/nifi-distributed-cache-services-bundle/nifi-distributed-cache-services-nar) org.apache.nifi:nifi-distributed-cache-services-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-docs (https://nifi.apache.org/nifi-docs) org.apache.nifi:nifi-docs:pom:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-dropbox-processors-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-dropbox-bundle/nifi-dropbox-processors-nar) org.apache.nifi:nifi-dropbox-processors-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-dropbox-services-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-dropbox-bundle/nifi-dropbox-services-api-nar) org.apache.nifi:nifi-dropbox-services-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-dropbox-services-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-dropbox-bundle/nifi-dropbox-services-nar) org.apache.nifi:nifi-dropbox-services-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-elasticsearch-client-service-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-elasticsearch-bundle/nifi-elasticsearch-client-service-api-nar) org.apache.nifi:nifi-elasticsearch-client-service-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-elasticsearch-client-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-elasticsearch-bundle/nifi-elasticsearch-client-service-nar) org.apache.nifi:nifi-elasticsearch-client-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-elasticsearch-restapi-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-elasticsearch-bundle/nifi-elasticsearch-restapi-nar) org.apache.nifi:nifi-elasticsearch-restapi-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-email-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-email-bundle/nifi-email-nar) org.apache.nifi:nifi-email-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-enrich-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-enrich-bundle/nifi-enrich-nar) org.apache.nifi:nifi-enrich-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-evtx-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-evtx-bundle/nifi-evtx-nar) org.apache.nifi:nifi-evtx-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-file-resource-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-services/nifi-file-resource-service-bundle/nifi-file-resource-service-nar) org.apache.nifi:nifi-file-resource-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-flow-encryptor (https://nifi.apache.org/nifi-commons/nifi-flow-encryptor) org.apache.nifi:nifi-flow-encryptor:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-flow-registry-client-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-flow-registry-client-bundle/nifi-flow-registry-client-nar) org.apache.nifi:nifi-flow-registry-client-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-framework-api (https://nifi.apache.org/nifi-framework-api) org.apache.nifi:nifi-framework-api:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-framework-kubernetes-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework-nar-bom/nifi-framework-kubernetes-nar) org.apache.nifi:nifi-framework-kubernetes-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-framework-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework-nar-bom/nifi-framework-nar) org.apache.nifi:nifi-framework-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-gcp-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-gcp-bundle/nifi-gcp-nar) org.apache.nifi:nifi-gcp-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-gcp-services-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-gcp-bundle/nifi-gcp-services-api-nar) org.apache.nifi:nifi-gcp-services-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-geohash-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-geohash-bundle/nifi-geohash-nar) org.apache.nifi:nifi-geohash-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-github-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-github-bundle/nifi-github-nar) org.apache.nifi:nifi-github-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-gitlab-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-gitlab-bundle/nifi-gitlab-nar) org.apache.nifi:nifi-gitlab-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-groovyx-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-groovyx-bundle/nifi-groovyx-nar) org.apache.nifi:nifi-groovyx-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-hashicorp-vault-client-service-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-hashicorp-vault-bundle/nifi-hashicorp-vault-client-service-api-nar) org.apache.nifi:nifi-hashicorp-vault-client-service-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-hashicorp-vault-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-hashicorp-vault-bundle/nifi-hashicorp-vault-nar) org.apache.nifi:nifi-hashicorp-vault-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-hazelcast-services-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-hazelcast-bundle/nifi-hazelcast-services-api-nar) org.apache.nifi:nifi-hazelcast-services-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-hazelcast-services-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-hazelcast-bundle/nifi-hazelcast-services-nar) org.apache.nifi:nifi-hazelcast-services-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-hl7-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-hl7-bundle/nifi-hl7-nar) org.apache.nifi:nifi-hl7-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-http-context-map-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-services/nifi-http-context-map-bundle/nifi-http-context-map-nar) org.apache.nifi:nifi-http-context-map-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-hubspot-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-hubspot-bundle/nifi-hubspot-nar) org.apache.nifi:nifi-hubspot-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-jetty-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-jetty-nar) org.apache.nifi:nifi-jetty-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-jms-cf-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-jms-bundle/nifi-jms-cf-service-nar) org.apache.nifi:nifi-jms-cf-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-jms-processors-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-jms-bundle/nifi-jms-processors-nar) org.apache.nifi:nifi-jms-processors-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-jolt-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-jolt-bundle/nifi-jolt-nar) org.apache.nifi:nifi-jolt-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-jslt-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-jslt-bundle/nifi-jslt-nar) org.apache.nifi:nifi-jslt-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-kafka-3-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-kafka-bundle/nifi-kafka-3-service-nar) org.apache.nifi:nifi-kafka-3-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-kafka-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-kafka-bundle/nifi-kafka-nar) org.apache.nifi:nifi-kafka-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-kafka-service-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-kafka-bundle/nifi-kafka-service-api-nar) org.apache.nifi:nifi-kafka-service-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-kerberos-iaa-providers-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework-extensions/nifi-kerberos-iaa-providers-bundle/nifi-kerberos-iaa-providers-nar) org.apache.nifi:nifi-kerberos-iaa-providers-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-kerberos-user-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-services/nifi-kerberos-user-service-bundle/nifi-kerberos-user-service-nar) org.apache.nifi:nifi-kerberos-user-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-key-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-key-service-bundle/nifi-key-service-nar) org.apache.nifi:nifi-key-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-ldap-iaa-providers-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework-extensions/nifi-ldap-iaa-providers-bundle/nifi-ldap-iaa-providers-nar) org.apache.nifi:nifi-ldap-iaa-providers-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-lookup-services-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-lookup-services-bundle/nifi-lookup-services-nar) org.apache.nifi:nifi-lookup-services-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-mongodb-client-service-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-mongodb-bundle/nifi-mongodb-client-service-api-nar) org.apache.nifi:nifi-mongodb-client-service-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-mongodb-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-mongodb-bundle/nifi-mongodb-nar) org.apache.nifi:nifi-mongodb-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-mongodb-services-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-mongodb-bundle/nifi-mongodb-services-nar) org.apache.nifi:nifi-mongodb-services-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-mqtt-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-mqtt-bundle/nifi-mqtt-nar) org.apache.nifi:nifi-mqtt-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-nar-utils (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework/nifi-nar-utils) org.apache.nifi:nifi-nar-utils:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-network-processors-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-network-bundle/nifi-network-processors-nar) org.apache.nifi:nifi-network-processors-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-oauth2-provider-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-oauth2-provider-bundle/nifi-oauth2-provider-nar) org.apache.nifi:nifi-oauth2-provider-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-opentelemetry-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-opentelemetry-bundle/nifi-opentelemetry-nar) org.apache.nifi:nifi-opentelemetry-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-per-process-group-logging (https://nifi.apache.org/nifi-commons/nifi-per-process-group-logging) org.apache.nifi:nifi-per-process-group-logging:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-pgp-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-pgp-bundle/nifi-pgp-nar) org.apache.nifi:nifi-pgp-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-pgp-service-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-pgp-bundle/nifi-pgp-service-api-nar) org.apache.nifi:nifi-pgp-service-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-pgp-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-pgp-bundle/nifi-pgp-service-nar) org.apache.nifi:nifi-pgp-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-poi-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-poi-bundle/nifi-poi-nar) org.apache.nifi:nifi-poi-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-properties (https://nifi.apache.org/nifi-commons/nifi-properties) org.apache.nifi:nifi-properties:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-property-encryptor (https://nifi.apache.org/nifi-commons/nifi-property-encryptor) org.apache.nifi:nifi-property-encryptor:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-property-utils (https://nifi.apache.org/nifi-commons/nifi-property-utils) org.apache.nifi:nifi-property-utils:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-protobuf-services-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-protobuf-bundle/nifi-protobuf-services-nar) org.apache.nifi:nifi-protobuf-services-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-provenance-repository-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework-extensions/nifi-provenance-repository-bundle/nifi-provenance-repository-nar) org.apache.nifi:nifi-provenance-repository-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-proxy-configuration-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-services/nifi-proxy-configuration-bundle/nifi-proxy-configuration-nar) org.apache.nifi:nifi-proxy-configuration-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-py4j-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-py4j-extension-bundle/nifi-py4j-nar) org.apache.nifi:nifi-py4j-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-python-extension-api (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework-extensions/nifi-py4j-framework-bundle/nifi-python-extension-api) org.apache.nifi:nifi-python-extension-api:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-python-framework (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework-extensions/nifi-py4j-framework-bundle/nifi-python-framework) org.apache.nifi:nifi-python-framework:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-python-framework-api (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework-extensions/nifi-py4j-framework-bundle/nifi-python-framework-api) org.apache.nifi:nifi-python-framework-api:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-record-serialization-services-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-record-serialization-services-bundle/nifi-record-serialization-services-nar) org.apache.nifi:nifi-record-serialization-services-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-record-sink-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-record-sink-service-bundle/nifi-record-sink-service-nar) org.apache.nifi:nifi-record-sink-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-redis-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-redis-bundle/nifi-redis-nar) org.apache.nifi:nifi-redis-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-redis-service-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-redis-bundle/nifi-redis-service-api-nar) org.apache.nifi:nifi-redis-service-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-registry-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-registry-bundle/nifi-registry-nar) org.apache.nifi:nifi-registry-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-resources (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework/nifi-resources) org.apache.nifi:nifi-resources:pom:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-runtime (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework/nifi-runtime) org.apache.nifi:nifi-runtime:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-salesforce-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-salesforce-bundle/nifi-salesforce-nar) org.apache.nifi:nifi-salesforce-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-scripting-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-scripting-bundle/nifi-scripting-nar) org.apache.nifi:nifi-scripting-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-security-cert-builder (https://nifi.apache.org/nifi-commons/nifi-security-cert-builder) org.apache.nifi:nifi-security-cert-builder:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-security-crypto-key (https://nifi.apache.org/nifi-commons/nifi-security-crypto-key) org.apache.nifi:nifi-security-crypto-key:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-server-api (https://nifi.apache.org/nifi-server-api) org.apache.nifi:nifi-server-api:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-server-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework-nar-bom/nifi-server-nar-bom/nifi-server-nar) org.apache.nifi:nifi-server-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-shopify-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-shopify-bundle/nifi-shopify-nar) org.apache.nifi:nifi-shopify-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-single-user-iaa-providers-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework-extensions/nifi-single-user-iaa-providers-bundle/nifi-single-user-iaa-providers-nar) org.apache.nifi:nifi-single-user-iaa-providers-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-single-user-utils (https://nifi.apache.org/nifi-commons/nifi-single-user-utils) org.apache.nifi:nifi-single-user-utils:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-site-to-site-reporting-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-site-to-site-reporting-bundle/nifi-site-to-site-reporting-nar) org.apache.nifi:nifi-site-to-site-reporting-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-slack-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-slack-bundle/nifi-slack-nar) org.apache.nifi:nifi-slack-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-smb-client-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-smb-bundle/nifi-smb-client-api-nar) org.apache.nifi:nifi-smb-client-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-smb-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-smb-bundle/nifi-smb-nar) org.apache.nifi:nifi-smb-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-smb-smbj-client-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-smb-bundle/nifi-smb-smbj-client-nar) org.apache.nifi:nifi-smb-smbj-client-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-snmp-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-snmp-bundle/nifi-snmp-nar) org.apache.nifi:nifi-snmp-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-social-media-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-social-media-bundle/nifi-social-media-nar) org.apache.nifi:nifi-social-media-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-splunk-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-splunk-bundle/nifi-splunk-nar) org.apache.nifi:nifi-splunk-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-ssl-context-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-services/nifi-ssl-context-bundle/nifi-ssl-context-service-nar) org.apache.nifi:nifi-ssl-context-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-standard-content-viewer-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-standard-bundle/nifi-standard-content-viewer-nar) org.apache.nifi:nifi-standard-content-viewer-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-standard-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-standard-bundle/nifi-standard-nar) org.apache.nifi:nifi-standard-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-standard-services-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-services/nifi-standard-services-api-nar) org.apache.nifi:nifi-standard-services-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-standard-shared-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-standard-shared-nar) org.apache.nifi:nifi-standard-shared-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-stateful-analysis-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-stateful-analysis-bundle/nifi-stateful-analysis-nar) org.apache.nifi:nifi-stateful-analysis-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-stateless-api (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-stateless/nifi-stateless-api) org.apache.nifi:nifi-stateless-api:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-update-attribute-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-update-attribute-bundle/nifi-update-attribute-nar) org.apache.nifi:nifi-update-attribute-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-web-client-provider-service-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-web-client-provider-bundle/nifi-web-client-provider-service-nar) org.apache.nifi:nifi-web-client-provider-service-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-websocket-processors-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-websocket-bundle/nifi-websocket-processors-nar) org.apache.nifi:nifi-websocket-processors-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-websocket-services-api-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-websocket-bundle/nifi-websocket-services-api-nar) org.apache.nifi:nifi-websocket-services-api-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-websocket-services-jetty-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-websocket-bundle/nifi-websocket-services-jetty-nar) org.apache.nifi:nifi-websocket-services-jetty-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-windows-event-log-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-windows-event-log-bundle/nifi-windows-event-log-nar) org.apache.nifi:nifi-windows-event-log-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-workday-processors-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-workday-bundle/nifi-workday-processors-nar) org.apache.nifi:nifi-workday-processors-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-xml-processing (https://nifi.apache.org/nifi-commons/nifi-xml-processing) org.apache.nifi:nifi-xml-processing:jar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-zendesk-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-zendesk-bundle/nifi-zendesk-nar) org.apache.nifi:nifi-zendesk-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-zendesk-services-nar (https://nifi.apache.org/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-zendesk-bundle/nifi-zendesk-services-nar) org.apache.nifi:nifi-zendesk-services-nar:nar:2.2.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'FasterXML' (http://fasterxml.com/)
+
+  - Jackson-annotations (https://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:jar:2.18.2
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Jackson-core (https://github.com/FasterXML/jackson-core) com.fasterxml.jackson.core:jackson-core:jar:2.18.2
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - jackson-databind (https://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-databind:jar:2.18.2
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'QOS.ch' (http://www.qos.ch)
+
+  - Logback Classic Module (http://logback.qos.ch/logback-classic) ch.qos.logback:logback-classic:jar:1.5.16
+    License: Eclipse Public License - v 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+
+  - Logback Core Module (http://logback.qos.ch/logback-core) ch.qos.logback:logback-core:jar:1.5.16
+    License: Eclipse Public License - v 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+
+  - JCL 1.2 implemented over SLF4J (http://www.slf4j.org) org.slf4j:jcl-over-slf4j:jar:2.0.16
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - JUL to SLF4J bridge (http://www.slf4j.org) org.slf4j:jul-to-slf4j:jar:2.0.16
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+  - Log4j Implemented Over SLF4J (http://www.slf4j.org) org.slf4j:log4j-over-slf4j:jar:2.0.16
+    License: Apache Software Licenses  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:2.0.16
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+
+
+
+
