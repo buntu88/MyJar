@@ -1,4 +1,4 @@
-target
+*.zip
 .project
 .settings
 .classpath
