@@ -9,7 +9,9 @@ by applicable law or agreed to in writing, software distributed under the
 License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS
 OF ANY KIND, either express or implied. See the License for the specific
 language governing permissions and limitations under the License. -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.apache.nifi</groupId>
@@ -867,11 +869,19 @@ language governing permissions and limitations under the License. -->
             <version>2.2.0</version>
             <type>nar</type>
         </dependency>
-        <!-- AspectJ library needed by the Java Agent used for native library loading (see bootstrap.conf) -->
+        <!-- AspectJ library needed by the Java Agent used for native library loading (see
+        bootstrap.conf) -->
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.jms/javax.jms-api -->
+        <dependency>
+            <groupId>javax.jms</groupId>
+            <artifactId>javax.jms-api</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+
     </dependencies>
     <profiles>
         <profile>
@@ -963,7 +973,8 @@ language governing permissions and limitations under the License. -->
         </profile>
         <profile>
             <id>include-media</id>
-            <!-- This profile includes the NiFi Media Bundle which is a large package that exposes Apache Tika functionality
+            <!-- This profile includes the NiFi Media Bundle which is a large package that exposes
+            Apache Tika functionality
                 through multiple processors. It is not included with the convenience binary due to its size. -->
             <activation>
                 <activeByDefault>false</activeByDefault>
@@ -1023,32 +1034,32 @@ language governing permissions and limitations under the License. -->
             <build>
                 <plugins>
                     <plugin>
-                    <artifactId>maven-assembly-plugin</artifactId>
-                    <executions>
-                    <execution>
-                        <id>make shared resource</id>
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <finalName>nifi-${project.version}</finalName>
-                            <attach>false</attach>
-                            <archiverConfig>
-                                <defaultDirectoryMode>0775</defaultDirectoryMode>
-                                <directoryMode>0775</directoryMode>
-                                <fileMode>0664</fileMode>
-                            </archiverConfig>
-                            <descriptors>
-                                <descriptor>src/main/assembly/dependencies.xml</descriptor>
-                            </descriptors>
-                            <tarLongFileMode>posix</tarLongFileMode>
-                            <formats>
-                                <format>tar.gz</format>
-                            </formats>
-                        </configuration>
-                    </execution>
-                    </executions>
+                        <artifactId>maven-assembly-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>make shared resource</id>
+                                <goals>
+                                    <goal>single</goal>
+                                </goals>
+                                <phase>package</phase>
+                                <configuration>
+                                    <finalName>nifi-${project.version}</finalName>
+                                    <attach>false</attach>
+                                    <archiverConfig>
+                                        <defaultDirectoryMode>0775</defaultDirectoryMode>
+                                        <directoryMode>0775</directoryMode>
+                                        <fileMode>0664</fileMode>
+                                    </archiverConfig>
+                                    <descriptors>
+                                        <descriptor>src/main/assembly/dependencies.xml</descriptor>
+                                    </descriptors>
+                                    <tarLongFileMode>posix</tarLongFileMode>
+                                    <formats>
+                                        <format>tar.gz</format>
+                                    </formats>
+                                </configuration>
+                            </execution>
+                        </executions>
                     </plugin>
                 </plugins>
             </build>
@@ -1142,7 +1153,7 @@ language governing permissions and limitations under the License. -->
         <profile>
             <id>include-all</id>
             <properties>
-              <allProfiles>true</allProfiles>
+                <allProfiles>true</allProfiles>
             </properties>
             <activation>
                 <activeByDefault>false</activeByDefault>
